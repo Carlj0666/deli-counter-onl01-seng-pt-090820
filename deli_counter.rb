@@ -23,7 +23,9 @@ end
 def now_serving(customers)
   if customers.length == 0
     puts "There is nobody waiting to be served!"
-
+  else
+    puts customer.first
+    customer.unshift
   end
 end
 
