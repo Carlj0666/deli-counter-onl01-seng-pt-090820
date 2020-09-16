@@ -22,6 +22,7 @@ end
 
 def now_serving(customers, name)
   #edge case
+  puts customers.first
   if customers.length == 0
     puts "There is nobody waiting to be served!"
     customers.unshift
