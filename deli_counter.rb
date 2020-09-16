@@ -30,6 +30,7 @@ def now_serving(customers, name)
     customers.unshift
   end
 end
+end
 
 
 line(katz_deli)
