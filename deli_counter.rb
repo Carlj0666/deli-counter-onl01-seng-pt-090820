@@ -23,8 +23,8 @@ end
 def now_serving(customers, name)
   #edge case
     binding.pry
-  puts customers.first
-
+  if customers.first == 0
+    puts "there are no people in line"
   if customers.length == 0
     puts "There is nobody waiting to be served!"
     customers.unshift
