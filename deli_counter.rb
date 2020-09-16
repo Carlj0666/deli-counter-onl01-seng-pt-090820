@@ -17,8 +17,7 @@ end
 def take_a_number(customers, name)
   line_string = "Welcome,"
   customers << name
-    puts "Welcome, #{name}. You are number 1 in line."
-#binding.pry
+  puts "Welcome, #{name}. You are number 1 in line."
    else 
 
      customers.each_with_index do |name, index|
