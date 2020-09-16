@@ -16,8 +16,7 @@ end
 
 def take_a_number(customers, name)
   line_string = "Welcome,"
-  if customers.length == 0
-    customers << name
+  customers << name
     puts "Welcome, #{name}. You are number 1 in line."
 #binding.pry
    else 
