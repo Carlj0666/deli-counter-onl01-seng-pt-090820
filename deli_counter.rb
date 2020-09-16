@@ -28,7 +28,7 @@ def now_serving(customers)
     customer.shift
   end
 end
-end
+
 
 
 line(katz_deli)
