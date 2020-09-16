@@ -25,8 +25,9 @@ def now_serving(customers)
     puts "There is nobody waiting to be served!"
   else
     puts customer.first
-    customer.unshift
+    customer.shift
   end
+end
 end
 
 
