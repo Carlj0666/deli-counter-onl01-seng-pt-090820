@@ -21,7 +21,9 @@ end
 
 
 def now_serving(customers, name)
-  
+  #edge case
+  if customers.length == 0
+    puts 
 end
 
 
