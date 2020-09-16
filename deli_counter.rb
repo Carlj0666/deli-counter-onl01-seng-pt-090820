@@ -19,4 +19,7 @@ def take_a_number(customers, name)
   puts "Welcome, #{name}. You are number #{customers.index(name) +1} in line."
 end
 
+
+def now_serving(customers, name)
+
 line(katz_deli)
