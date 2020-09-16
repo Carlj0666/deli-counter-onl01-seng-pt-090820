@@ -25,6 +25,7 @@ def now_serving(customers, name)
   if customers.length == 0
     customers.unshift
     puts "There is nobody waiting to be served!"
+  end
 end
 
 
